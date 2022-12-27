@@ -6,6 +6,15 @@ A python script for fully automatically creating web articles with images about 
 
 In order to use this script you must have an OpenAI API key that is exported in the environment variable OPENAP_API_KEY
  
+ 
+## Usage
+
+You need python to execute this script. Put your images into a folder and then run the script on the content of this folder.
+
+```python
+python ./ghostwriter.py -t "The Rise of AI generated Content" -tmpl ./template.php -o ai_content
+```
+
  ## Command Line Options
 
 <b>-t</b><br/> The topic to write about
