@@ -22,7 +22,7 @@ Please note that each run will create a different article.
 
 <b>-t</b><br/> The topic to write about
 <br/><br/>
-<b>-tmpl</b><br/> The template file used for output formatting
+<b>-tmpl</b><br/> The template file used for output formatting. The layout of a template file is simple. It is a text file that needs to contain the two placeholders {TOPIC} and {CONTENT}. The {TOPIC} placeholder will be replaced with the article topic and the {CONTENT} placeholder will be replaced with the HTML formatted article.
 <br/><br/>
 <b>-o</b><br/> The output folder.
  
