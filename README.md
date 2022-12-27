@@ -8,7 +8,7 @@ In order to use this script you must have an OpenAI API key that is exported in 
 To execute the script just use python and type:
 
 ```python
-python ./ghostwriter.py -t "The Rise of AI generated Content" -tmpl ./template.php -o ai_content
+python ./ghostwriter.py -t "The Rise of AI generated Content" -tmpl ./template.html -o ai_content
 ```
 
 This will automatically use OpenAI's GPT-3 to automatically generate a web page including images for each chapter about the topic: "The Rise of AI generated Content"
