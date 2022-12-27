@@ -20,9 +20,9 @@ Please note that each run will create a different article.
 
  ## Command Line Options
 
-<b>-t</b><br/> The topic to write about
+<b>-t</b><br/> The topic to write about. Should be written in Quotation marks.
 <br/><br/>
 <b>-tmpl</b><br/> The template file used for output formatting. The layout of a template file is simple. It is a text file that needs to contain the two placeholders {TOPIC} and {CONTENT}. The {TOPIC} placeholder will be replaced with the article topic and the {CONTENT} placeholder will be replaced with the HTML formatted article.
 <br/><br/>
-<b>-o</b><br/> The output folder.
+<b>-o</b><br/> The output folder. If the folder does not exist it will be created.
  
