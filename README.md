@@ -14,7 +14,7 @@ python ./ghostwriter.py -t "The Rise of AI generated Content" -tmpl ./template.p
 This will automatically use OpenAI's GPT-3 to automatically generate a web page including images for each chapter about the topic: "The Rise of AI generated Content"
 
 A result of the such a run can be found here:
-[The Rise of AI generated Content](beltoforion.de/de/ai-ghostwriter/article_ai_content/index.php)
+[The Rise of AI generated Content](https://beltoforion.de/de/ai-ghostwriter/article_ai_content/index.php)
 
 Please note that each run will create a different article.
 
