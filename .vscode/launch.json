@@ -5,15 +5,6 @@
     "version": "0.2.0",
     "configurations": [
         {
-            "name": "Main",
-            "type": "python",
-            "request": "launch",
-            "program": "main.py",
-            "console": "integratedTerminal",
-            "justMyCode": true,
-            "args": [ "-o", "./xxx", "-t", "\"Der Niedergang des römischen Reiches\"", "-tmpl", "./template.php" ]
-        },
-        {
             "name": "Python: Current File",
             "type": "python",
             "request": "launch",
