@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<outline>
+  <topic>Über die Entwicklung des Lebens auf der Erde</topic>
+  <subtopic Caption="Einleitung">
+    <subsubtopic Caption="Hintergrundinformationen"/>
+    <subsubtopic Caption="Ziele und Methoden"/>
+  </subtopic>
+  <subtopic Caption="Evolutionstheorie">
+    <subsubtopic Caption="Darwinismus"/>
+    <subsubtopic Caption="Lamarckismus"/>
+  </subtopic>
+  <subtopic Caption="Aktuelle Forschung">
+    <subsubtopic Caption="Genetische Veränderungen"/>
+    <subsubtopic Caption="Klimaänderungen"/>
+  </subtopic>
+</outline>

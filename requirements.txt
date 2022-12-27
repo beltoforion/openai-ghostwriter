@@ -1,0 +1,5 @@
+codecs
+lxml.etree
+argparse
+pathlib
+opanai
