@@ -17,7 +17,7 @@ Please note that each run will create a different article.
 ## Usage
 
 In order to use this script you must have an OpenAI API key that is exported in the environment variable OPENAP_API_KEY.
-To execute the script just use python and type:
+To execute the script type in the following command line:
 
 ```python
 python ./ghostwriter.py -t "The Rise of AI generated Content" -tmpl ./template.html -o ai_content
