@@ -1,6 +1,6 @@
 # openai-ghostwriter
 
-A python script for fully automatically creating web articles with images. The scipt uses OpenAI's GPT-3 as a content creator. 
+A python script for fully automatically creating web articles with images. The scipt uses OpenAI's GPT-3 as a content creator. it will first send a request to create a table of contents in a specified xml format and it will then iterate over the table of content and request GPT-3 to write a specific chapter. For some chapters it will ask GPT-3 to create a prompt that describes an image related to the article. This prompt is then used to generate images.
 
 ## Usage
 
