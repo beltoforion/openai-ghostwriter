@@ -15,8 +15,8 @@ The command will create a HTML article about the topic "The Rise of AI generated
 
 Example results can be found here: 
 
-* [The Rise of AI generated Content](https://beltoforion.de/de/ai-ghostwriter/article_ai_content/index.php)
-* [The entire History of Mars](https://beltoforion.de/de/ai-ghostwriter/article_history_of_mars/index.php)
+* [The Rise of AI generated Content](https://beltoforion.de/de/gpt3-ghostwriter/article_ai_content/index.php)
+* [The entire History of Mars](https://beltoforion.de/de/gpt3-ghostwriter/article_history_of_mars/index.php)
 
 Please note that each run will create a different article.
 
