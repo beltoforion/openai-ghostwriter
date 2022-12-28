@@ -23,7 +23,7 @@ To execute the script type in the following command line:
 python ./ghostwriter.py -t "The Rise of AI generated Content" -tmpl ./template.html -o ai_content
 ```
 
-The command will create a HTML article about the topic "The Rise of AI generated Content". It will create and send the necessary API queries to OpenAI's servers and compile a web page complete with images. 
+The command will create a HTML article about the topic "The Rise of AI generated Content". It will build and send the necessary API queries to OpenAI's servers and compile a web page complete with a couple of images. 
 
  ## Command Line Options
 
