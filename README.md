@@ -13,7 +13,7 @@ python ./ghostwriter.py -t "The Rise of AI generated Content" -tmpl ./template.h
 
 The command will create a HTML article about the topic "The Rise of AI generated Content". It will create and send the necessary API queries to OpenAI's servers and compile a web page complete with images. 
 
-Example results can be found here:
+Example results can be found here: 
 
 * [The Rise of AI generated Content](https://beltoforion.de/de/ai-ghostwriter/article_ai_content/index.php)
 * [The entire History of Mars](https://beltoforion.de/de/ai-ghostwriter/article_history_of_mars/index.php)
