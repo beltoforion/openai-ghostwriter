@@ -44,4 +44,5 @@ The command will create a HTML article about the topic "The Rise of AI generated
 <b>-tmpl</b><br/> The template file used for output formatting. The layout of a template file is simple. It is a text file that needs to contain the two placeholders {TOPIC}, {CONTENT} and optionally {VERSION}. The {TOPIC} placeholder will be replaced with the article topic and the {CONTENT} placeholder will be replaced with the HTML formatted article. The {VERSION} placeholder will be replaced with the script version.
 <br/><br/>
 <b>-o</b><br/> The output folder. If the folder does not exist it will be created.
+<b>-v</b><br/> Verbose mode. In this mode the prompts will be output to the console.
  
