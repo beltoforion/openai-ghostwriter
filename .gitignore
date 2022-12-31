@@ -2,3 +2,5 @@
 *.jpg
 ai_content/*
 article/*
+article1/index.php
+article1/toc.xml

@@ -8,7 +8,6 @@ import argparse
 
 from PIL import Image
 from io import BytesIO
-#from pathlib import Path
 
 
 class OpenAIGhostWriter:
@@ -44,14 +43,12 @@ class OpenAIGhostWriter:
 
     def write_introduction(self, topic, chapter, subsection, nwords=100):
         if chapter is None:
-            prompt = f'{topic}; Introductory text with at least {nwords} words; [Format:HTML;No heading;multiple <p> sections]'
+            prompt = f'{topic}; Introductory text with at least {nwords} words; [Format:HTML;No heading;use <p> tags]'
         elif subsection is None:
-            prompt = f'Topic: {chapter} / {topic}; Introductory; {nwords} Words; [Format:HTML;No heading;multiple <p> sections]'
+            prompt = f'Topic: {chapter} / {topic}; Introductory; {nwords} Words; [Format:HTML;No heading;use <p> tags]'
         else:
-#            prompt = f'Topic: {subsection} / {chapter} / {topic}; Write essay; minimum {nwords} words; Format as html multiple <p> sections but no heading'
-#            prompt = f'Topic: {subsection} / {chapter} / {topic}; Write chapter; minimum {nwords} words; Format as html multiple <p> sections but no heading'
-            prompt = f'[Caption: {topic}][Topic: "{chapter}:{subsection}"][Format:HTML;No heading;multiple <p> sections]Write chapter; minimum 600 words'
-            
+            prompt = f'[Caption: {topic}][Topic: "{chapter}:{subsection}"][Format:HTML;No heading;use <p> tags][Write: min. {nwords} words]'
+
         return self.__create(prompt, temp=0.3, freq_penalty=0.4, pres_penalty=0.3, max_tokens = 4000)
 
 
@@ -109,8 +106,12 @@ class OpenAIGhostWriter:
     def __remove_first_paragraph(self, html):
         ''' The first paragraph often contains an explanation of the topic. It needs to be removed. '''
         paragraphs = html.split('<p>')
-        html = '</p>'.join(paragraphs[2:])
-        return html
+        fixed_html = '</p>'.join(paragraphs[2:]).strip()
+        if len(fixed_html)==0:
+            # There is only one chapter
+            return html
+        else:
+            return fixed_html
 
 
     def create_article_from_toc(self, toc_file):
@@ -168,7 +169,6 @@ class OpenAIGhostWriter:
         return article_code
 
     def create_image(self, topic, chapter, save_path):
-#        prompt = f'Create an DALL-E prompt in english that will create a photorealistic illustration for an article with this title:'
         prompt = f'Create an DALL-E prompt in english for creating a photorealistic illustration for an article with this title:'
         if chapter is None:        
             prompt += f'{topic}'

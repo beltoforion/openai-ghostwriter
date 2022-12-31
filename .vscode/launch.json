@@ -12,7 +12,7 @@
             "console": "integratedTerminal",
             "justMyCode": true,
             "args": [
-                "-t", "The Late Bronze Age Collapse", 
+                "-t", "Paleocene–Eocene Thermal Maximum", 
                 "-tmpl", "./template.php", 
                 "-o", "article", "-v"]
         }
