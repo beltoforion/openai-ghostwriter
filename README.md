@@ -21,6 +21,7 @@ Please note that each run will create a different article.
 Version 1.0.1 (2022-12-31):
 * Added placeholder for script version number
 * OpenAI prompts modified
+* added option for verbose mode
 * improved output quality with a hardcoded filter that will remove the first paragraph of subsections. This paragraph contained repetetive explanations about the article topic. 
 
 Version 1.0.0:
