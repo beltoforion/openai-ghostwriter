@@ -28,9 +28,17 @@
 <section>
 <div class="box" style="background:#ffff00; color:red;" >
 <p>
-Dieser Artikel wurde von einer künstlichen Intelligenz geschrieben! Er dient als 
-Demonstrationsbeispiel für automatisiert erzeugte Inhalte. Der Artikel kann
-Unsinn und falsche Aussagen enthalten!
+This article may contain factual errors. It was created by 
+the <a href="https://github.com/beltoforion/openai-ghostwriter">openai-ghostwriter {VERSION}</a>. 
+This is a python script for automatic generation of web pages powered by the OpenAI's GPT-3.
+</p>
+
+<hr>
+
+<p>
+Dieser Artikel kann Unsinn und falsche Aussagen enthalten! Er wurde vom 
+<a href="https://github.com/beltoforion/openai-ghostwriter">openai-ghostwriter {VERSION}</a> erzeugt. Das
+ist ein Python-Skript für die vollautomatische Erstellung von Webseiten. 
 </p>
 </div>
 </section>

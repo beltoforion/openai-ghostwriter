@@ -1,2 +1,4 @@
-
 *.pyc
+*.jpg
+ai_content/*
+article/*
