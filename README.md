@@ -5,14 +5,25 @@ A python script for fully automatically creating web articles with images about 
 Content generation works in any Language known to GPT-3 but i only tried german and english.Example results can be found here: 
 
 Article examples in english:
-* [The Rise of AI generated Content](https://beltoforion.de/de/gpt3-ghostwriter/article_ai_content/index.php)
-* [The entire History of Mars](https://beltoforion.de/de/gpt3-ghostwriter/article_history_of_mars/index.php)
+* [Paleocene–Eocene Thermal Maximum](https://beltoforion.de/de/gpt3-ghostwriter/article_petm/index.php)  (Created by Version 1.0.1)
+* [The Late Bronze Age Collapse](https://beltoforion.de/de/gpt3-ghostwriter/article_late_bronze_age_collapse/index.php)  (Created by Version 1.0.1)
+* [The Rise of AI generated Content](https://beltoforion.de/de/gpt3-ghostwriter/article_ai_content/index.php) (Created by Version 1.0.0)
+* [The entire History of Mars](https://beltoforion.de/de/gpt3-ghostwriter/article_history_of_mars/index.php) (Created by Version 1.0.0)
 
 Article examples in german:
-* [Über die Entwicklung des Lebens auf der Erde](https://beltoforion.de/de/gpt3-ghostwriter/article_entwicklung_des_lebens/index.php)
-* [Der Niedergang des römischen Reiches](https://beltoforion.de/de/gpt3-ghostwriter/article_rom/index.php)
+* [Über die Entwicklung des Lebens auf der Erde](https://beltoforion.de/de/gpt3-ghostwriter/article_entwicklung_des_lebens/index.php) (Created by Version 1.0.0)
+* [Der Niedergang des römischen Reiches](https://beltoforion.de/de/gpt3-ghostwriter/article_rom/index.php) (Created by Version 1.0.0)
 
 Please note that each run will create a different article. 
+
+## Changes
+
+Version 1.0.1 (2022-12-31):
+* Added placeholder for script version number
+* improved output quality with a hardcoded filter that will remove the first paragraph of subsections. This paragraph contained repetetive explanations about the article topic. 
+
+Version 1.0.0:
+* initial release
 
 ## Usage
 
