@@ -14,6 +14,15 @@ Article examples in german:
 
 Please note that each run will create a different article. 
 
+## Changes
+
+Version 1.0.1 (2022-12-31):
+* Added placeholder for script version number
+* improved output quality with a hardcoded filter that will remove the first paragraph of subsections. This paragraph contained repetetive explanations about the article topic. 
+
+Version 1.0.0:
+* initial release
+
 ## Usage
 
 In order to use this script you must have an OpenAI API key that is exported in the environment variable OPENAP_API_KEY.
