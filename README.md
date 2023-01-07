@@ -15,7 +15,6 @@ Article examples in english:
 
 Article examples in german:
 * [Die Kambrische Explosion](https://beltoforion.de/de/gpt3-ghostwriter/article_kambrische_explosion/index.php) (Created by Version 1.0.1)
-* [Über die Entwicklung des Lebens auf der Erde](https://beltoforion.de/de/gpt3-ghostwriter/article_entwicklung_des_lebens/index.php) (Created by Version 1.0.0)
 * [Der Niedergang des römischen Reiches](https://beltoforion.de/de/gpt3-ghostwriter/article_rom/index.php) (Created by Version 1.0.0)
 
 Please note that each run will create a different article. 
