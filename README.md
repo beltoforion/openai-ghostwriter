@@ -7,7 +7,7 @@ Content generation works in any Language known to GPT-3 but i only tried german 
 
 Article examples in english:
 
-* [The Age of Piracy](https://beltoforion.de/de/gpt3-ghostwriter/article_article_age_of_piracy/index.php)  (Created by Version 1.0.2 in the writing style of a drunken pirate)
+* [The Age of Piracy](https://beltoforion.de/de/gpt3-ghostwriter/article_age_of_piracy/index.php)  (Created by Version 1.0.2 in the writing style of a drunken pirate)
 * [The Cambrian Explosion](https://beltoforion.de/de/gpt3-ghostwriter/article_cambrian_explosion/index.php)  (Created by Version 1.0.1)
 * [Paleocene–Eocene Thermal Maximum](https://beltoforion.de/de/gpt3-ghostwriter/article_petm/index.php)  (Created by Version 1.0.1)
 * [The Late Bronze Age Collapse](https://beltoforion.de/de/gpt3-ghostwriter/article_late_bronze_age_collapse/index.php)  (Created by Version 1.0.1)
