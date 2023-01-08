@@ -20,6 +20,9 @@ Please note that each run will create a different article.
 
 ## Changes
 
+Version 1.0.2 (2023-01-09):
+* Added command line option to set writing style.
+
 Version 1.0.1 (2022-12-31):
 * Added placeholder for script version number
 * OpenAI prompts modified
@@ -48,4 +51,5 @@ The command will create a HTML article about the topic "The Rise of AI generated
 <br/><br/>
 <b>-o</b><br/> The output folder. If the folder does not exist it will be created.
 <b>-v</b><br/> Verbose mode. In this mode the prompts will be output to the console.
+<b>-s</b><br/> Writing Style. Set the Writing style. i.e. "National Geographic", "Carl Sagan" or "Drunken Pirate"
  
