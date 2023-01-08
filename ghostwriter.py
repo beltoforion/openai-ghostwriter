@@ -11,13 +11,14 @@ from io import BytesIO
 
 
 class OpenAIGhostWriter:
-    def __init__(self, output_folder : pathlib.Path, template_file : pathlib.Path, verbose : bool):
+    def __init__(self, output_folder : pathlib.Path, template_file : pathlib.Path, verbose : bool, style : str = None):
         self.__api_key = os.environ["OPENAI_API_KEY"]
         self.__model = "text-davinci-003" # biggest, best and most expensive
         self.__output_folder = output_folder
         self.__template_file = template_file
         self.__verbose = verbose
-        self.__version = "1.0.1"
+        self.__version = "1.0.2"
+        self.__style = style
 
         openai.api_key = self.__api_key
 
@@ -49,7 +50,10 @@ class OpenAIGhostWriter:
         else:
             prompt = f'[Caption: {topic}][Topic: "{chapter}:{subsection}"][Format:HTML;No heading;use <p> tags][Write: min. {nwords} words]'
 
-        return self.__create(prompt, temp=0.3, freq_penalty=0.4, pres_penalty=0.3, max_tokens = 4000)
+        if not self.__style is None:
+            prompt += f'[Writing-Style: {self.__style}]'
+
+        return self.__create(prompt, temp=0.3, freq_penalty=0.5, pres_penalty=0.5, max_tokens = 4000)
 
 
     def create_toc(self, topic, nchapter):
@@ -206,6 +210,7 @@ def main():
     parser.add_argument("-tmpl", "--Template", dest="template", help='A template with a file where the created HTML fragment shall be inserted', required=True, type=str)    
     parser.add_argument("-o", dest="output", help='Name of output folder', required=True, type=str, default=None)
     parser.add_argument("-v", dest="verbose", action='store_true', help='Output prompts', required=False)    
+    parser.add_argument("-s", dest="style", help='Writing Style', required=False)        
     args = parser.parse_args()
 
     print('\r\n')
@@ -213,6 +218,7 @@ def main():
     print('----------------------------------')
     print(f' - topic: {args.topic}')
     print(f' - template: {args.template}')    
+    print(f' - writing style: {args.style}')    
     print(f' - output folder: {args.output}')    
     print(f' - verbose: {args.verbose}')    
 
@@ -229,7 +235,7 @@ def main():
         print(f'The output folder {args.output} already exists and is not a directory!')
         exit(-1)
 
-    controller = OpenAIGhostWriter(output_folder, template_file, args.verbose)
+    controller = OpenAIGhostWriter(output_folder, template_file, args.verbose, args.style)
     controller.write(topic, 3)
 
 if __name__ == "__main__":

@@ -12,9 +12,9 @@
             "console": "integratedTerminal",
             "justMyCode": true,
             "args": [
-                "-t", "Paleocene–Eocene Thermal Maximum", 
+                "-t", "The Age of Piracy", 
                 "-tmpl", "./template.php", 
-                "-o", "article", "-v"]
+                "-o", "article", "-v", "-s", "Drunken Pirate"]
         }
     ]
 }
