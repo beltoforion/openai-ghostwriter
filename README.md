@@ -5,16 +5,12 @@ A python script for fully automatically creating web articles with images about 
 
 Content generation works in any Language known to GPT-3 but i only tried german and english.Example results can be found here: 
 
-Article examples in english:
+Article examples:
 
 * [The Age of Piracy](https://beltoforion.de/de/gpt3-ghostwriter/article_age_of_piracy/index.php)  (Created by Version 1.0.2 in the writing style of a drunken pirate)
 * [The Cambrian Explosion](https://beltoforion.de/de/gpt3-ghostwriter/article_cambrian_explosion/index.php)  (Created by Version 1.0.1)
 * [Paleocene–Eocene Thermal Maximum](https://beltoforion.de/de/gpt3-ghostwriter/article_petm/index.php)  (Created by Version 1.0.1)
 * [The Late Bronze Age Collapse](https://beltoforion.de/de/gpt3-ghostwriter/article_late_bronze_age_collapse/index.php)  (Created by Version 1.0.1)
-
-Article examples in german:
-* [Die Kambrische Explosion](https://beltoforion.de/de/gpt3-ghostwriter/article_kambrische_explosion/index.php) (Created by Version 1.0.1)
-* [Der Niedergang des römischen Reiches](https://beltoforion.de/de/gpt3-ghostwriter/article_rom/index.php) (Created by Version 1.0.0)
 
 Please note that each run will create a different article. 
 
