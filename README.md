@@ -18,6 +18,7 @@ Article examples:
 
 Version 1.0.2 (2023-01-09):
 * Added command line option to set writing style.
+* fixed a bug that was messing up the created HTML
 
 Version 1.0.1 (2022-12-31):
 * Added placeholder for script version number
