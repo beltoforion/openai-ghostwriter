@@ -13,8 +13,6 @@ Article examples:
 * [Paleocene–Eocene Thermal Maximum](https://beltoforion.de/de/gpt3-ghostwriter/article_petm/index.php)  (Created by Version 1.0.1)
 * [The Late Bronze Age Collapse](https://beltoforion.de/de/gpt3-ghostwriter/article_late_bronze_age_collapse/index.php)  (Created by Version 1.0.1)
 
-Please note that each run will create a different article. 
-
 ## Changes
 
 Version 1.0.2 (2023-01-09):
