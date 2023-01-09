@@ -109,8 +109,8 @@ class OpenAIGhostWriter:
 
     def __remove_first_paragraph(self, html):
         ''' The first paragraph often contains an explanation of the topic. It needs to be removed. '''
-        paragraphs = html.split('<p>')
-        fixed_html = '</p>'.join(paragraphs[2:]).strip()
+        paragraphs = html.split('</p>')
+        fixed_html = '</p>'.join(paragraphs[1:]).strip()
         if len(fixed_html)==0:
             # There is only one chapter
             return html

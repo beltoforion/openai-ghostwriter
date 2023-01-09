@@ -12,9 +12,9 @@
             "console": "integratedTerminal",
             "justMyCode": true,
             "args": [
-                "-t", "The Age of Piracy", 
+                "-t", "The History of Space Exploration", 
                 "-tmpl", "./template.php", 
-                "-o", "article", "-v", "-s", "Drunken Pirate"]
+                "-o", "article_history_of_space_exploration", "-v", "-s", "Carl Sagan"]
         }
     ]
 }
