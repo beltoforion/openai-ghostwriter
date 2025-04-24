@@ -29,7 +29,7 @@
 <div class="box" style="background:#ffff00; color:red;" >
 <p>
 This article may contain factual errors. It was created by 
-the <a href="https://github.com/beltoforion/openai-ghostwriter">openai-ghostwriter {VERSION}</a>. 
+the <a href="https://github.com/beltoforion/openai-ghostwriter">openai-ghostwriter {VERSION}</a> using the {MODEL} model. 
 This is a python script for automatic generation of web pages powered by the OpenAI's GPT-3.
 </p>
 
