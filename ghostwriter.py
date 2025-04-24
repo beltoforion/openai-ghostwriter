@@ -341,14 +341,14 @@ def main():
 #    toc = lxml.etree.parse(f'{str(output_folder)}/toc.xml')
 
     #
-    # Step 2: Create the article from the table of contents
+    # Step 2: Create the images
     #
 
     image_generator = OpenAiImageGenerator(client, output_folder, args.verbose)
     image_generator.create_article_images_toc(toc)
 
     #
-    # Step 3: Create the images
+    # Step 3: Create the article from the table of contents
     #
 
     article_generator = OpenAiArticleGenerator(client, output_folder, template_file, args.style, args.verbose)

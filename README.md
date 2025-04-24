@@ -1,9 +1,9 @@
 ![titel_ghostwriter](https://user-images.githubusercontent.com/2202567/210897677-50993627-cd0d-4dbf-8ed8-d90d330ae7b7.jpg)
 # openai-ghostwriter
 
-A python script for fully automatically creating web articles with images about any user specified topic. The script uses OpenAI's GPT-3 as a content creator. it will first send a request to create a table of contents in a specified xml format and it will then iterate over the table of content and request GPT-3 to write a specific chapter and its subsections. For some chapters it will ask GPT-3 to create a prompt that describes an image related to the article. This prompt is then used to generate illustrations with GPT-3. The result is formatted in HTML and inserted into a user specified web page template. 
+A python script for fully automatically creating web articles with images about any user specified topic. The script uses OpenAI's GPT-4 as a content creator. it will first send a request to create a table of contents in a specified xml format and it will then iterate over the table of content and request GPT-4 to write a specific chapter and its subsections. For some chapters it will use GPT-4 to create a prompt that describes an image related to the article. This prompt is then submitted to Dall-E-3 for image generation. The result is formatted in HTML and inserted into a user specified web page template. 
 
-Content generation works in any Language known to GPT-3 but i only tried german and english.Example results can be found here: 
+Content generation works in any Language known to GPT-4 but i only tried german and english. Example results can be found here: 
 
 Article examples:
 
@@ -15,6 +15,11 @@ Article examples:
 * [The Late Bronze Age Collapse](https://beltoforion.de/de/gpt-ghostwriter/article_late_bronze_age_collapse/index.php)  (Created by Version 1.0.1)
 
 ## Changes
+
+Version 2.0.0 (2025-04-24):
+* Code updated to use OpenAI client class
+* Code updated to use GPT-4 and Dall-E-3
+* Created three separate classes for TOC creation, image creation and article creation
 
 Version 1.0.2 (2023-01-09):
 * Added command line option to set writing style.
