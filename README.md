@@ -1,6 +1,6 @@
 ![title](https://github.com/user-attachments/assets/dae32013-6d97-446e-ba5a-a24710de9630)
 
-# gpt-4-ghostwriter
+# The GPT-4 Ghostwriter
 
 A python script for fully automatically creating web articles with images about any user specified topic. The script uses OpenAI's GPT-4 as a content creator. it will first send a request to create a table of contents in a specified xml format and it will then iterate over the table of content and request GPT-4 to write a specific chapter and its subsections. For some chapters it will use GPT-4 to create a prompt that describes an image related to the article. This prompt is then submitted to Dall-E-3 for image generation. The result is formatted in HTML and inserted into a user specified web page template. 
 
